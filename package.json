@@ -3,7 +3,7 @@
     "dotenv": "^8.2.0",
     "notion-api-js": "^2.3.4"
   },
-  "name": "PersonalReadmeBuilder",
+  "name": "personal-readme-builder",
   "version": "1.0.0",
   "description": "Builds my Github personal README file",
   "main": "index.js",
