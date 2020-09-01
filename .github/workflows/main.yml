@@ -1,10 +1,10 @@
 name: Build README
 
 on:
-  # push:
+  push:
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '32 * * * *'
+  schedule:
+    - cron:  '32 * * * *'
 
 jobs:
   build:
