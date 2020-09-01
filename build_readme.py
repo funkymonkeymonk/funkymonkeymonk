@@ -8,12 +8,12 @@ from notion.client import NotionClient
 BLOGMARKS_URL = "https://www.notion.so/380ce82124f74f959e25a03a31f696b4?v=5297dd0f955742128043cd769204ecfc"
 
 def main(notion_client):
-    result = get_all_blogmarks(notion_client)
+    result = getAllBlogmarks(notion_client)
     public = get_public(result)
     readme_content = prepare_readme(public)
     write_and_print('README.md', readme_content)
 
-def get_all_blogmarks(client):
+def getAllBlogmarks(client):
     cv = client.get_collection_view(BLOGMARKS_URL)
 
     sort_params = [{
@@ -24,11 +24,11 @@ def get_all_blogmarks(client):
     return cv.build_query(sort=sort_params).execute()
 
 def get_public(result):
-    return list(filter(lambda row: row['public'] == True, result))
+    return list(filter(lambda row: row.public == True, result))
 
 def prepare_readme(public):
     most_recent = public[:5]
-    blogmarks = { "blogmarks": list(map(lambda row: { "title": row['title'], "url": row['url'] }, most_recent)) }
+    blogmarks = { "blogmarks": list(map(lambda row: { "title": row.title, "url": row.url }, most_recent)) }
     with open('README.template.md', 'r') as f:
         file_content = chevron.render(f, blogmarks)
     return file_content
