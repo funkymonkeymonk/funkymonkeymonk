@@ -24,11 +24,11 @@ result = cv.build_query(sort=sort_params).execute()
 # Get public results because I'm struggling to get this filter working with the API
 public = list(filter(lambda row: row.public == True, result))
 # Convert to display dictionaries
-output = list(map(lambda row: { "title": row.title, "url": row.url }, public))
+top_five = list(map(lambda row: { "title": row.title, "url": row.url }, public[:5]))
 
 
 with open('README.template.md', 'r') as f:
-    file_content = chevron.render(f, { "blogmarks": output })
+    file_content = chevron.render(f, { "blogmarks": top_five })
 
 with open('README.md', 'w') as f:
     f.write(file_content)
