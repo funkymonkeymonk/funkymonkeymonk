@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
+* [Web Brutalism, Seamfulness, and Notion](https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/)
 * [Patterns of Effective Teams • Dan North](https://www.youtube.com/watch?v=lvs7VEsQzKY)
 * [skribbl - Free Multiplayer Drawing &amp; Guessing Game](https://skribbl.io/)
 * [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
 * [INVEST](https://www.wikiwand.com/en/INVEST_(mnemonic))
-* [Codenames - Play Online](https://www.horsepaste.com/)
