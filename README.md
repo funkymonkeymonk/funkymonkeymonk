@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
+* [How Meetup scales notification queue consumers](https://link.medium.com/0EoxNlMXv9)
+* [Everyday Refactorings in IntelliJ IDEA](https://blog.jetbrains.com/idea/2020/09/everyday-refactorings-in-intellij-idea/)
 * [Web Brutalism, Seamfulness, and Notion](https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/)
 * [Patterns of Effective Teams • Dan North](https://www.youtube.com/watch?v=lvs7VEsQzKY)
 * [skribbl - Free Multiplayer Drawing &amp; Guessing Game](https://skribbl.io/)
-* [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
-* [INVEST](https://www.wikiwand.com/en/INVEST_(mnemonic))
