@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
+* [Derek Sivers: How to start a movement | TED Talk](https://www.ted.com/talks/derek_sivers_how_to_start_a_movement)
 * [How Meetup scales notification queue consumers](https://link.medium.com/0EoxNlMXv9)
 * [Everyday Refactorings in IntelliJ IDEA](https://blog.jetbrains.com/idea/2020/09/everyday-refactorings-in-intellij-idea/)
 * [Web Brutalism, Seamfulness, and Notion](https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/)
 * [Patterns of Effective Teams • Dan North](https://www.youtube.com/watch?v=lvs7VEsQzKY)
-* [skribbl - Free Multiplayer Drawing &amp; Guessing Game](https://skribbl.io/)
