@@ -19,7 +19,7 @@ def main(NOTION_TOKEN):
     print(blogmarks)
     readme_content = prepare_readme(blogmarks)
     print(readme_content)
-    # write_and_print('README.md', readme_content)
+    write_and_print('README.md', readme_content)
 
 def get_blogmarks(NOTION_TOKEN):
     data = {
