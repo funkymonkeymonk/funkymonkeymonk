@@ -1,34 +1,55 @@
+import sys
+
 from dotenv import load_dotenv
 load_dotenv()
 
 import os
 import chevron
-from notion.client import NotionClient
+import requests
 
-BLOGMARKS_URL = "https://www.notion.so/380ce82124f74f959e25a03a31f696b4?v=5297dd0f955742128043cd769204ecfc"
+class BearerAuth(requests.auth.AuthBase):
+    def __init__(self, token):
+        self.token = token
+    def __call__(self, r):
+        r.headers["authorization"] = "Bearer " + self.token
+        return r
 
-def main(notion_client):
-    result = getAllBlogmarks(notion_client)
-    public = get_public(result)
-    readme_content = prepare_readme(public)
-    write_and_print('README.md', readme_content)
+def main(NOTION_TOKEN):
+    blogmarks = get_blogmarks(NOTION_TOKEN)
+    print(blogmarks)
+    readme_content = prepare_readme(blogmarks)
+    print(readme_content)
+    # write_and_print('README.md', readme_content)
 
-def getAllBlogmarks(client):
-    cv = client.get_collection_view(BLOGMARKS_URL)
+def get_blogmarks(NOTION_TOKEN):
+    data = {
+        "filter": {
+            "property": "Public",
+            "checkbox": {
+                "equals": True
+            }
+        },
+        "sorts": [
+            {"property": "Date", "direction": "descending"},
+            {"property": "Name", "direction": "ascending"}
+        ],
+        "page_size": 5
+    }
 
-    sort_params = [{
-        "direction": "descending",
-        "property": "created"
-    }]
-    
-    return cv.build_query(sort=sort_params).execute()
+    res = requests.post("https://api.notion.com/v1/databases/3cbc9526987c4b8bbe26d1b1a968c62b/query", auth=BearerAuth(NOTION_TOKEN), json=data)
+
+    if res.status_code != 200:
+        print("Request to Notion failed with status: " + str(res.status_code))
+        sys.exit(1)
+
+    raw = res.json()['results']
+    blogmarks = { "blogmarks": list(map(lambda row: { "title": row['properties']['Name']['title'][0]['plain_text'], "url": row['properties']['URL']['url'] }, raw)) }
+    return blogmarks
 
 def get_public(result):
     return list(filter(lambda row: row.public == True, result))
 
-def prepare_readme(public):
-    most_recent = public[:5]
-    blogmarks = { "blogmarks": list(map(lambda row: { "title": row.title, "url": row.url }, most_recent)) }
+def prepare_readme(blogmarks):
     with open('README.template.md', 'r') as f:
         file_content = chevron.render(f, blogmarks)
     return file_content
@@ -36,12 +57,16 @@ def prepare_readme(public):
 def write_and_print(file_name, content):
     with open(file_name, 'w') as f:
         f.write(content)
-        f.close
+        f.close()
 
     with open(file_name, 'r') as f:
         print(f.read())
-        f.close
+        f.close()
 
 if __name__ == "__main__":
-    NOTION_V2_TOKEN = os.getenv("NOTION_V2_TOKEN")
-    main(NotionClient(token_v2=NOTION_V2_TOKEN))
+    NOTION_TOKEN = os.getenv("NOTION_TOKEN")
+    if (NOTION_TOKEN):
+        main(NOTION_TOKEN)
+    else:
+        print('Failed to get NOTION_TOKEN from the environment')
+        exit(1)
