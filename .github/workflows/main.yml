@@ -31,7 +31,7 @@ jobs:
     #     pytest
     - name: Update README
       env:
-        NOTION_V2_TOKEN: ${{ secrets.NOTION_V2_TOKEN }}
+        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       run: |-
         python build_readme.py
     - name: Commit and push if README changed
