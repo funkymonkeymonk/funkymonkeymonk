@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
-* [Derek Sivers: How to start a movement | TED Talk](https://www.ted.com/talks/derek_sivers_how_to_start_a_movement)
-* [How Meetup scales notification queue consumers](https://link.medium.com/0EoxNlMXv9)
-* [Everyday Refactorings in IntelliJ IDEA](https://blog.jetbrains.com/idea/2020/09/everyday-refactorings-in-intellij-idea/)
-* [Web Brutalism, Seamfulness, and Notion](https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/)
-* [Patterns of Effective Teams • Dan North](https://www.youtube.com/watch?v=lvs7VEsQzKY)
+* [Factors in Structuring a Product Organization](https://svpg.com/factors-in-structuring-a-product-organization/)
+* [Collaborative Innovation on the Retail Floor at Nordstrom's](https://innovationmanagement.se/2011/12/20/collaborative-innovation-on-the-retail-floor-at-nordstroms/)
+* [What is Lean Coffee?](https://agilecoffee.com/leancoffee/)
+* [Jazz-Style Management: What Music Can Teach Us About Leadership](https://medium.com/@truedrew/jazz-style-management-what-music-can-teach-us-about-leadership-54a3d3f914c7)
+* [Working Remotely - COVID-19 Principles](https://twitter.com/slavetothehat/status/1259978637266366465)
