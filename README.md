@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
-* [Factors in Structuring a Product Organization](https://svpg.com/factors-in-structuring-a-product-organization/)
-* [Collaborative Innovation on the Retail Floor at Nordstrom's](https://innovationmanagement.se/2011/12/20/collaborative-innovation-on-the-retail-floor-at-nordstroms/)
-* [What is Lean Coffee?](https://agilecoffee.com/leancoffee/)
-* [Jazz-Style Management: What Music Can Teach Us About Leadership](https://medium.com/@truedrew/jazz-style-management-what-music-can-teach-us-about-leadership-54a3d3f914c7)
-* [Working Remotely - COVID-19 Principles](https://twitter.com/slavetothehat/status/1259978637266366465)
+* [Modern Agile](https://modernagile.org/)
+* [re:Work - The five keys to a successful Google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
+* [The importance of team culture | Hacker Noon](https://hackernoon.com/the-importance-of-team-culture-af6fffead7b5)
+* [Effective 1:1s](https://www.radicalcandor.com/effective-one-on-ones/)
+* [London vs Chicago TDD](https://devlead.io/DevTips/LondonVsChicago)
