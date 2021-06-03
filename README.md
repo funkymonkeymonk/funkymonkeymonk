@@ -5,7 +5,7 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 ### Recently Added Bookmarks 
 
 * [Modern Agile](https://modernagile.org/)
+* [Every design is a system | by Benek Lisefski | May, 2021 | UX Collective](https://uxdesign.cc/every-design-is-a-system-28bb9bf028b7)
 * [re:Work - The five keys to a successful Google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
 * [The importance of team culture | Hacker Noon](https://hackernoon.com/the-importance-of-team-culture-af6fffead7b5)
 * [Effective 1:1s](https://www.radicalcandor.com/effective-one-on-ones/)
-* [London vs Chicago TDD](https://devlead.io/DevTips/LondonVsChicago)
