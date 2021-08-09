@@ -4,8 +4,8 @@ I'm Will. I like to play games and desparately try to automate myself away from 
 
 ### Recently Added Bookmarks 
 
-* [Modern Agile](https://modernagile.org/)
-* [Every design is a system | by Benek Lisefski | May, 2021 | UX Collective](https://uxdesign.cc/every-design-is-a-system-28bb9bf028b7)
-* [re:Work - The five keys to a successful Google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
-* [The importance of team culture | Hacker Noon](https://hackernoon.com/the-importance-of-team-culture-af6fffead7b5)
-* [Effective 1:1s](https://www.radicalcandor.com/effective-one-on-ones/)
+* [Collective Code Ownership and Conway's Law](https://www.industriallogic.com/blog/collective-code-ownership-and-conways-law/)
+* [Key Promoter X - plugin for IntelliJ IDEs | JetBrains](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
+* [The Architecture Game: An Approach for Learning | by Shiney Koshy | Sawyer: Childhood Development | Medium](https://medium.com/sawyer-childhood-development/the-architecture-game-an-approach-for-learning-989b0b0b3f1f)
+* [Stride’s Toast to Failure](https://medium.com/@debbiemadden200/strides-toast-to-failure-266ea00aecf7)
+* [Eigenquestions: The Art of Framing Problems · Overview](https://coda.io/@shishir/eigenquestions-the-art-of-framing-problems)
