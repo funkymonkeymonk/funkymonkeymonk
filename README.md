@@ -1,6 +1,10 @@
 ### Hi there 👋
 
-I'm Will. I like to play games and desparately try to automate myself away from ever having to do the same thing multiple times. Thankfully there is inevitably more things to automate, and more games to play so I'm very rarely bored. You can learn more about me on my site https://willweaver.dev.
+I'm Will. I like to play games and desparately try to automate myself away from ever having to do the same thing multiple times. Thankfully there is inevitably more things to automate, and more games to play so I'm very rarely bored. You can learn more about me on my site https://willweaver.dev. Feel free to reach out if there is a project that you'd like to pair program on.
+
+<a href="mailto:monkey@buildingbananas.com?subject=Pair%20program%20with%20me" title="Pair program with me!">
+  <img  src="http://pairprogramwith.me/badge.png"alt="Pair program with me!" />
+</a>
 
 ### Recently Added Bookmarks 
 
